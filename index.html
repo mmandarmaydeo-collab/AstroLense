@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <title>Astrolense | वैदिक ज्योतिष संस्था</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Astrolense – कुंडली, मुहूर्त, वास्तु सल्ला व ज्योतिष शिक्षणासाठी विश्वसनीय केंद्र.">
+    <style>
+        :root {
+            --primary: #8b3a9c;
+            --primary-dark: #6a2678;
+            --accent: #f4b400;
+            --bg: #f7f3ff;
+            --text: #222222;
+            --muted: #555555;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background: #fff;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+            z-index: 50;
+        }
+
+        .nav-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0.6rem 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-circle {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            border: 2px solid var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+        }
+
+        .logo-text {
+            font-weight: 700;
+            font-size: 1.05rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        /* HERO */
+        .hero {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            display: grid;
+            grid-template-columns: 1.3fr 1fr;
+            gap: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            color: #1a1025;
+        }
+
+        .hero h1 span {
+            color: var(--primary-dark);
+        }
+
+        .hero p {
+            margin: 1rem 0;
+            color: var(--muted);
+        }
+
+        .hero-card {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+        }
+
+        section {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem 1rem 1rem;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .card {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        /* Contact */
+        .contact-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        form, .contact-info-card {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.3rem;
+            margin-bottom: 0.7rem;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        footer {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #1a1025;
+            color: #eee;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="nav-container">
+        <div class="logo">
+            <div class="logo-circle">ॐ</div>
+            <div class="logo-text">Astrolense</div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#about">आपण कोण?</a></li>
+                <li><a href="#services">सेवा</a></li>
+                <li><a href="#courses">कोर्स</a></li>
+                <li><a href="#contact">संपर्क</a></li>
+            </ul>
+        </nav>
+
+        <a href="#contact" class="btn-primary">सल्ला बुक करा</a>
+    </div>
+</header>
+
+<section class="hero">
+    <div>
+        <h1><span>Astrolense</span><br>वैदिक ज्योतिष संस्था</h1>
+        <p>कुंडली, मुहूर्त, वास्तु व करिअर सल्ल्यासाठी विश्वसनीय केंद्र.</p>
+        <a href="#contact" class="btn-primary">आजच संपर्क करा</a>
+    </div>
+
+    <div class="hero-card">
+        <h3>त्वरित ज्योतिष सल्ला</h3>
+        <p>☎ WhatsApp / कॉल वर त्वरित मार्गदर्शन.</p>
+        <p>9921550449 / 7588105421</p>
+    </div>
+</section>
+
+<section id="about">
+    <h2>संस्थेबद्दल</h2>
+    <p>Astrolense जीवन समजून घेण्याची एक आध्यात्मिक दिशा देते.</p>
+</section>
+
+<section id="services">
+    <h2>ज्योतिष सेवा</h2>
+
+    <div class="grid-3">
+        <div class="card">
+            <h3>कुंडली विश्लेषण</h3>
+            <p>व्यक्तिमत्व, करिअर, आरोग्य, विवाह, आर्थिक स्थिती.</p>
+        </div>
+        <div class="card">
+            <h3>विवाह जुळवणी</h3>
+            <p>गुणमेलन, दोषनिर्णय, अडचणीचे समाधान.</p>
+        </div>
+        <div class="card">
+            <h3>मुहूर्त निवड</h3>
+            <p>गृहप्रवेश, व्यवसाय सुरू करणे, वाहन खरेदी, नामकरण.</p>
+        </div>
+    </div>
+</section>
+
+<section id="courses">
+    <h2>ज्योतिष शिक्षण</h2>
+    <p>ऑनलाइन / ऑफलाइन क्लासेस उपलब्ध.</p>
+</section>
+
+<section id="contact">
+    <h2>संपर्क</h2>
+
+    <div class="contact-wrapper">
+        <!-- Contact Form -->
+        <form>
+            <label>नाव</label>
+            <input type="text" placeholder="तुमचे नाव">
+
+            <label>मोबाइल</label>
+            <input type="text" placeholder="9921550449">
+
+            <label>सेवा प्रकार</label>
+            <input type="text" placeholder="कुंडली / विवाह / मुहूर्त इ.">
+
+            <label>तुमचा संदेश</label>
+            <textarea placeholder="तुमचा प्रश्न..."></textarea>
+
+            <button class="btn-primary" style="width:100%">सबमिट</button>
+        </form>
+
+        <!-- Contact Info Box -->
+        <div class="contact-info-card">
+            <h3>थेट संपर्क</h3>
+            <p><strong>मोबाइल:</strong> 9921550449</p>
+            <p><strong>मोबाइल:</strong> 7588105421</p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/919921550449">येथे क्लिक करा</a></p>
+            <p><strong>ई-मेल:</strong> astrolense@gmail.com</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © <span id="year"></span> Astrolense – All Rights Reserved
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
